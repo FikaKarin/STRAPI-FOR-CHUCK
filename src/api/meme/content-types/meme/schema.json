@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memes",
+  "info": {
+    "singularName": "meme",
+    "pluralName": "memes",
+    "displayName": "meme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meme": {
+      "type": "string",
+      "required": true
+    },
+    "chucklevel": {
+      "type": "integer",
+      "required": true,
+      "max": 10
+    }
+  }
+}
